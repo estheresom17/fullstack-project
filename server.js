@@ -68,8 +68,8 @@ app.post('/api/cart', async (req, res) => {
   try {
     const menuItem = await MenuItem.findById(id);
     if (menuItem) {
-      const cartItem = { ...menuItem._doc, quantity: 1 }; // Add quantity property
-      cart.push(cartItem); // Push to in-memory cart (or you could store it in MongoDB if needed)
+      const cartItem = { ...menuItem._doc, quantity: 1 }; 
+      cart.push(cartItem); 
       res.status(201).json({ message: 'Item added to cart', item: cartItem });
     } else {
       res.status(404).json({ message: 'Item not found in menu' });
@@ -81,7 +81,7 @@ app.post('/api/cart', async (req, res) => {
 
 // API route to view the current cart
 app.get('/api/cart', (req, res) => {
-  res.json(cart);  // Return in-memory cart (this can be stored in MongoDB if needed)
+  res.json(cart);  
 });
 
 // API route to place an order
@@ -106,7 +106,7 @@ app.post('/api/orders', async (req, res) => {
 
   try {
     const savedOrder = await order.save();
-    cart = []; // Clear the cart after the order is placed
+    cart = []; 
     res.status(201).json({ message: 'Order placed successfully!', order: savedOrder });
   } catch (err) {
     res.status(500).json({ message: 'Error placing order', error: err });
