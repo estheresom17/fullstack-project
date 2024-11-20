@@ -1,0 +1,33 @@
+{
+    "menuItems": [
+      {
+        "id": 1,
+        "name": "Jollof Rice",
+        "description": "Delicious Nigerian Jollof rice served with fried chicken.",
+        "price": 25,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFUEvb9YoH-mHKsB7e7lCLO6wZ6Cq8nrFKM29DbjLNlA&s"
+      },
+      {
+        "id": 2,
+        "name": "Pounded Yam and Egusi",
+        "description": "Pounded yam served with rich Egusi soup.",
+        "price": 30,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGtzQfOg2DKY53xiYdsn0mrLBFiSDRrx6ZpGir0ANRW82t2QzTPj4piTY&s"
+      },
+      {
+        "id": 3,
+        "name": "Suya",
+        "description": "Spicy Nigerian street food skewers made with beef or chicken.",
+        "price": 20,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBcqd49LP9E0Tu7eIkaOJ9zHmQDJnso4GMIA&s"
+      },
+      {
+        "id": 4,
+        "name": "Fried Plantains",
+        "description": "Sweet, crispy fried plantains, also known as dodo.",
+        "price": 10,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFAUgteOStume9xkUqHuNz6m7CJEMEUagNg&s"
+      }
+    ]
+  }
+  
