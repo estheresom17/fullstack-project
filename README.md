@@ -47,7 +47,6 @@ The UI consists of several sections:
 ### **REST Endpoints**
 - **`GET /api/menu`**: Fetches all menu items from the database.
 
-![Menu Get](documentation/menu get.png)
 
 - **`POST /api/orders`**: Submits a new order to the backend for storage.
 - **`GET /api/orders`**: Retrieves all orders from the database (used by restaurant admins).
@@ -56,16 +55,8 @@ The UI consists of several sections:
 ### **Database Visualization**
 The MongoDB database contains two primary collections:
 1. **MenuItem**: Stores details about menu items (name, description, price, image).
-
-![Menu Items](documentation/menu db.png)
-
 2. **Order**: Stores customer orders, including the customer name, address, ordered dishes, and total price.
 
-![Sent Orders](documentation/orders in db.png)
-
-### **Developer Tool Test** 
-
-![Developer tool test](documentation/successful order.png)
 
 ## **Work Tracking**
 
