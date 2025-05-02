@@ -74,7 +74,6 @@ The MongoDB database contains two primary collections:
 | Day 10 | Final testing, debugging, and code cleanup .  | 4 hours           | 
 | **Total** |                                            | **44 hours**       | 
 
-*Total time spent: 80 hours*
 
 ## **Strengths of the Project**
 - **User-friendly UI**: The layout is simple, intuitive, and easy to navigate.
@@ -87,5 +86,3 @@ The MongoDB database contains two primary collections:
 - **No authentication**: The system does not have user authentication or authorization for order management.
 - **Database connection dependency**: The app is dependent on a live MongoDB connection, which might create issues if the database is down.
 
-## **Personal Reflection and Grade Proposal**
-Working on this project was an insightful experience, as it gave us the opportunity to combine both frontend and backend skills. We learned how to handle dynamic data fetching and order management using JavaScript, and how to set up a server and manage a database with MongoDB.
